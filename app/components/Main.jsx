@@ -7,7 +7,6 @@ const Main = () => {
 
   return (
     <main className="bg-gray-800 text-white min-h-screen flex flex-col items-center p-6">
-      {/* Пошук */}
       <div className="relative flex items-center w-full max-w-md">
         <input
           type="text"

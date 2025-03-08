@@ -20,16 +20,6 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center p-4 bg-red-700 text-black shadow-lg">
       <h1 className="text-3xl font-extrabold text-white">TRIUMF</h1>
-      <div className="relative hidden md:flex items-center w-1/3">
-        <input
-          type="text"
-          placeholder="Пошук..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          className="w-full p-2 pl-10 rounded-full bg-black text-white placeholder-gray-400 focus:ring-2 focus:ring-red-400 outline-none"
-        />
-        <Search className="absolute left-3 text-gray-400" size={20} />
-      </div>
       <button
         className="md:hidden p-2 text-black"
         onClick={toggleMenu}
