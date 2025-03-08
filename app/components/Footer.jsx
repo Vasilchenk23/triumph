@@ -9,12 +9,17 @@ const Footer = () => {
       <div className="text-sm text-gray-200">
         <p>© {new Date().getFullYear()} TRIUMF. Всі права захищені.</p>
         <p>
-          <a href="#" className="underline hover:text-black">
+          <a href="/privacy" className="underline hover:text-black">
             Політика конфіденційності
           </a>{" "}
           |{" "}
-          <a href="#" className="underline hover:text-black">
-            Умови використання
+          <a href="/cookies" className="underline hover:text-black">
+            Cookies
+          </a>
+          {" "}
+          {" "}
+          |<a href="/contact" className="underline hover:text-black">
+            Контакти 
           </a>
         </p>
       </div>
