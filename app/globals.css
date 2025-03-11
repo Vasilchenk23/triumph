@@ -5,6 +5,7 @@
   --foreground: #171717;
 }
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -21,4 +22,21 @@
 
 body {
   background-color: #0A0A0A;
+}
+
+/* styles/globals.css */
+.slider-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.slider-container img {
+  width: 100%;
+  height: auto;
+}
+
+.active-slide {
+  text-align: center;
+  margin-top: 10px;
 }
