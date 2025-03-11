@@ -25,7 +25,7 @@ const Main = () => {
   const [search, setSearch] = useState("");
 
   return (
-    <main className="bg-gray-800 text-white min-h-screen flex flex-col items-center p-6">
+    <main className="bg-[#0A0A0A] text-white min-h-screen flex flex-col items-center p-6">
       <div className="relative flex items-center w-full max-w-md">
         <input
           type="text"
