@@ -99,17 +99,16 @@ const Header = () => {
           />
         </div>
         <button
-  className="p-2 z-50 ml-4 md:ml-0 absolute right-0 md:relative"
-  onClick={toggleMenu}
-  aria-label="Toggle menu"
->
-  {isOpen ? (
-    <X color="white" size={28} />
-  ) : (
-    <Menu color="white" size={28} />
-  )}
-</button>
-
+          className="p-2 z-50 ml-4 md:ml-0 absolute right-0 md:relative"
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+        >
+          {isOpen ? (
+            <X color="white" size={28} />
+          ) : (
+            <Menu color="white" size={28} />
+          )}
+        </button>
       </div>
       <div
         className={`fixed top-0 right-0 h-full ${
