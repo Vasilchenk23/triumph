@@ -123,42 +123,36 @@ const Header = () => {
           <X size={28} />
         </button>
         <nav className="flex flex-col items-start mt-16 space-y-4 px-6">
-          <Link href="/contacts" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} Контакты
-          </Link>
-          <Link
-            href="/financial-aid"
-            className="px-4 py-2 hover:text-[#EEE3C1]"
-          >
-            {">"} Финансовая помощь
-          </Link>
-          <Link
-            href="/humanitarian-aid"
-            className="px-4 py-2 hover:text-[#EEE3C1]"
-          >
-            {">"} Гуманитарная помощь
-          </Link>
-          <Link href="/news" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} Новости
-          </Link>
-          <Link href="/health" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} Здоровье
-          </Link>
-          <Link href="/children" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} Детям
-          </Link>
-          <Link href="/gifts" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} Подарки
-          </Link>
-          <Link href="/pensioners" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} Пенсионерам
-          </Link>
-          <Link href="/evacuation" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} Эвакуация
-          </Link>
-          <Link href="/about" className="px-4 py-2 hover:text-[#EEE3C1]">
-            {">"} О нас
-          </Link>
+        <Link href="/contacts" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Контакти
+        </Link>
+        <Link href="/financial-aid" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Фінансова допомога
+        </Link>
+        <Link href="/humanitarian-aid" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Гуманітарна допомога
+        </Link>
+        <Link href="/new" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Новини
+        </Link>
+        <Link href="/health" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Здоров'я
+        </Link>
+        <Link href="/children" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Дітям
+        </Link>
+        <Link href="/gifts" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Подарунки
+        </Link>
+        <Link href="/pensioners" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Пенсіонерам
+        </Link>
+        <Link href="/evacuation" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Евакуація
+        </Link>
+        <Link href="/about" className="px-4 py-2 hover:text-[#EEE3C1]">
+          {">"} Про нас
+        </Link>
         </nav>
       </div>
     </header>

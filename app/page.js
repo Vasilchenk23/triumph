@@ -12,7 +12,7 @@ export default function Home() {
    <>
     <Face/>
     <SimpleSlider/>
-    <Main/>
+    {/* <Main/> */}
    </>
   );
 }
