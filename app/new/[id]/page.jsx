@@ -1,5 +1,6 @@
 
 import { query } from '../../lib/db';
+import Image from 'next/image';
 
 export default async function ArticlePage({ params: { id } }) {
   const results = await query('SELECT * FROM news WHERE id = $1', [id]);
@@ -17,8 +18,8 @@ export default async function ArticlePage({ params: { id } }) {
       <p className="mb-4 text-gray-400">
         {article.author} - {formattedDate}
       </p>
-      <img
-        src={`https://admins-one.vercel.app/${article.img}`}
+      <Image
+        src={`https://admins-one.vercel.app/${n.img.replace(/^\/+/, '')}`}
         alt={article.title}
         className="object-cover rounded-md mb-4 w-full max-w-lg"
       />
