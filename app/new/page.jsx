@@ -44,7 +44,7 @@ const Article = () => {
             .map((n) => (
               <div key={n.id} className="p-4 shadow-lg flex flex-col md:flex-row gap-4 border-b">
                <Image
-                src={`http://localhost:3001${n.img}`} 
+                src={`https://admins-one.vercel.app/${n.img}`} 
                 alt={n.title}
                 width={300}
                 height={200}

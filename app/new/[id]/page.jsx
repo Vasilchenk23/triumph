@@ -18,7 +18,7 @@ export default async function ArticlePage({ params: { id } }) {
         {article.author} - {formattedDate}
       </p>
       <img
-        src={`http://localhost:3001${article.img}`}
+        src={`https://admins-one.vercel.app/${article.img}`}
         alt={article.title}
         className="object-cover rounded-md mb-4 w-full max-w-lg"
       />
@@ -26,7 +26,6 @@ export default async function ArticlePage({ params: { id } }) {
         {article.content}
       </div>
       
-      {/* Отрисовка description */}
       <div className="mt-8">
         <h2 className="text-2xl font-bold mb-4">Описание</h2>
         <DescriptionRenderer description={article.description} />
