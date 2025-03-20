@@ -19,7 +19,7 @@ export default async function ArticlePage({ params: { id } }) {
         {article.author} - {formattedDate}
       </p>
       <Image
-        src={`https://admins-one.vercel.app/${n.img.replace(/^\/+/, '')}`}
+        src={`https://admins-one.vercel.app/${article.img.replace(/^\/+/, '')}`}
         alt={article.title}
         className="object-cover rounded-md mb-4 w-full max-w-lg"
       />
