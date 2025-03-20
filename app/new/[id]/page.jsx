@@ -1,8 +1,7 @@
-// app/new/[id]/page.jsx
+
 import { query } from '../../lib/db';
 
 export default async function ArticlePage({ params: { id } }) {
-  // Получаем статью по id из базы данных
   const results = await query('SELECT * FROM news WHERE id = $1', [id]);
   const article = results[0];
 
@@ -10,7 +9,6 @@ export default async function ArticlePage({ params: { id } }) {
     return <div>Статья не найдена</div>;
   }
 
-  // Форматирование даты
   const formattedDate = new Date(article.date).toLocaleDateString("uk-UA");
 
   return (
